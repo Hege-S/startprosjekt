@@ -1,4 +1,10 @@
-export const Hello = (props:any) =>  {
+interface Props {
+    name: string
+    lastName: string
+    children: React.ReactNode
+}
+
+export const Hello = (props: Props) =>  {
    
     return (
     <div>
