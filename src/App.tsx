@@ -11,6 +11,9 @@ import {WeatherList} from  './components/WeatherList';
 /* import {Stylesheet} from './components/Stylesheet'; Deleted, don't need it?*/
 import {Form} from './components/Form';
 import {PostList} from './components/PostList';
+import {PostForm} from './components/PostForm';
+import { DataQuery } from './components/DataQuery'; 
+import { IfCounter } from './components/IfCounter';
 
 function App() {
 
@@ -49,6 +52,9 @@ function App() {
         </div>
         <div>
           <PostList/>
+          <PostForm/>
+          <DataQuery/>
+          <IfCounter/>
         </div>
        
 

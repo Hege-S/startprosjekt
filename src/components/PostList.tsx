@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react'
 
 export const PostList:any = () => {
     const [posts, setPosts] = useState<any[]>([])
-    const startingLetter = 's'
+    const startingLetter = 'e'
     const filteredTitles = posts.filter((post) => post.title.startsWith(startingLetter))
     
     useEffect(()=> {

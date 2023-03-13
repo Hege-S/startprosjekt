@@ -28,6 +28,8 @@ export const Form = ({ className /*, ...props  */}: Props) => {
             <div>
                 <label>Check if you like</label>
                 <input type='checkbox'></input>
+                <input type='checkbox'></input>
+                <input type='checkbox'></input>
             </div>
          
             <button type='submit'
